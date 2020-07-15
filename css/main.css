@@ -1,11 +1,11 @@
 .jumbotron {
-    background-color: yellow;
+    background-color: rgb(255, 115, 0);
     color: black;
 }
 
 .footer {
     padding: 10px 10px 0 10px;
-    background-color: yellow;
+    background-color: rgb(255, 115, 0);
     margin-bottom: 0px;
     margin-top: 10px;
 }
@@ -17,9 +17,21 @@
                    puede ocupar hasta el doble del ancho, luego utiliza la propiedad flex-basis, especifica el ancho definido*/
    padding: 2px 5px 2px 5px;
    margin-top: 10px;   
+   
+}
+
+.card-hotel p {
+   text-align: left; 
 }
 
 .btn-reserva {
-    width: 100%;
-    
+    width: 100%;    
+}
+
+.social a{
+    color: #ffffff;
+}
+
+.contacto a {
+    color: #ffffff;
 }
