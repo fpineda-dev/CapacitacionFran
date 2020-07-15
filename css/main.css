@@ -36,3 +36,34 @@
 .contacto a {
     color: #ffffff;
 }
+
+.footer-address-icon {
+    padding-right: 5px;
+}
+
+.face__img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.twi__img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.inst__img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.goo__img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
