@@ -11,6 +11,11 @@
     margin-top: 10px;
 }
 
+.imageC {
+    width: 100%;
+    height: 300px;
+}
+
 .card-hotel {
    flex: 1 200px; /*Esta instruccion de Flex, lo que utiliza por un lado cuantos decimo queremos que cresca el elemento que sea de tipo flex
                    en este caso nuestras fichas, y de cuanto va a ser el ancho en este caso 150, al decirle 1 que es la propiedad flex-grow
