@@ -12,21 +12,21 @@
 }
 
 .card-hotel {
-   flex: 1 150px; /*Esta instruccion de Flex, lo que utiliza por un lado cuantos decimo queremos que cresca el elemento que sea de tipo flex
+   flex: 1 200px; /*Esta instruccion de Flex, lo que utiliza por un lado cuantos decimo queremos que cresca el elemento que sea de tipo flex
                    en este caso nuestras fichas, y de cuanto va a ser el ancho en este caso 150, al decirle 1 que es la propiedad flex-grow
                    que es lo que representa esto queremos que se mantenga intacta si le pusieramos 2 quiere decir que cada uno de los items
                    puede ocupar hasta el doble del ancho, luego utiliza la propiedad flex-basis, especifica el ancho definido*/
-   padding: 2px 5px 2px 5px;
    margin-top: 10px;   
    
 }
 
-.card-hotel p {
+/* .card-hotel p {
    text-align: left; 
-}
+} */
 
 .btn-reserva {
-    width: 100%;    
+    width: 100%;
+    border-radius: 0;    
 }
 
 .social a{
