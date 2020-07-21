@@ -1,171 +1,191 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-    <title>Oficios y Habilidades</title>
-  </head>
-  <body>
-   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-     <a href="#" class="navbar-brand">Obras</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <ul class="navbar-nav mr-auto">
-         <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-         <li class="nav-item"><a href="./about.html" class="nav-link">Nosotros</a></li>
-         <li class="nav-item"><a href="./precios.html" class="nav-link">Precios</a></li>
-         <li class="nav-item"><a href="#" class="nav-link">Términos y condiciones</a></li>
-         <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
-       </ul>
-     </div>
-   </nav>
-    <div class="jumbotron">
-      <h1 class="display-3">Obras de Mantenimiento Menor</h1>      
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+  <title>Oficios y Habilidades</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a href="#" class="navbar-brand">Obras</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="./about.html" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="./precios.html" class="nav-link">Precios</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Términos y condiciones</a></li>
+        <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <h1 class="display-3">Obras de Mantenimiento Menor</h1>
+  </div>
+
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona"
+          aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva"
+          aria-expanded="false" aria-controls="multiCollapse2">¿Dónde puedo reservar?</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false"
+          aria-controls="multiCollapse3">¿Cómo pago?</button>
+      </div>
     </div>
 
-    <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item active" aria-current="page">Home</li>
-        </ol>
-      </nav>
-      <div class="row">
-        <div class="col-sm-4">
-           <p>
-               <h3>¿Cómo funciona?</h3>
-               <p>Buscá al obrero especializado para tu mantenimiento menor.</p>
-           </p>           
-        </div>
-        <div class="col-sm-4">
-          <p>
-              <h3>¿Dónde puedo contratar?</h3>
-              <p>Elegi el trabajos o actividad que debe
-                realizarse para rehabilitar o corregir el 
-                deterioro o fallas detectadas en tu inmuebles</p>
-          </p>           
-       </div>  
-       <div class="col-sm-4">
+    <div class="row">
+      <div class="col-sm-4 collapse multi-collapse" id="funciona">
         <p>
-            <h3>¿Cómo pago?</h3>
-            <p>Utiliza tu tarjeta favorita</p>
-        </p>           
-     </div>        
+        <h3>¿Cómo funciona?</h3>
+        <p>Buscá al obrero especializado para tu mantenimiento menor.</p>
+        </p>
+      </div>
+      <div class="col-sm-4 collapse multi-collapse" id="reserva">
+        <p>
+        <h3>¿Dónde puedo contratar?</h3>
+        <p>Elegi el trabajos o actividad que debe
+          realizarse para rehabilitar o corregir el
+          deterioro o fallas detectadas en tu inmuebles</p>
+        </p>
+      </div>
+      <div class="col-sm-4 collapse multi-collapse" id="pago">
+        <p>
+        <h3>¿Cómo pago?</h3>
+        <p>Utiliza tu tarjeta favorita</p>
+        </p>
+      </div>
     </div>
-   <hr>
+    <hr>
 
-   <img src="./assets/img-enmedio.jpg" class="imageC img-fluid" alt="Responsive imagen">
+    <img src="./assets/img-enmedio.jpg" class="imageC img-fluid" alt="Responsive imagen">
 
-   <div class="d-flex flex-wrap flex-row-reverse">
-     <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+    <div class="d-flex flex-wrap flex-row-reverse">
+      <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
         <div class="card-body">
-          <h5 class="card-title">CERÁMICA</h5>          
+          <h5 class="card-title">CERÁMICA</h5>
           <h6 class="card-subtitle text-muted">MOSAICO Y TERRAZO</h6>
           <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
-          <p class="card-text">Trabajador calificado en la rama de la albañilería con su ayudante, 
+          <p class="card-text">Trabajador calificado en la rama de la albañilería con su ayudante,
             con al menos 2 años de experiencia efectiva,
             Los acabados de pisos deberán ser realizados acorde con lo indicado.</p>
         </div>
         <div>
-          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>       
-        </div> 
-    </div>
-   <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
-      <div class="card-body">
-        <h4>PAREDES</h4>
-        <h6 class="card-subtitle text-muted">PREFABRICADAS</h6>
-        <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
-        <p>Trabajador calificado en albañilería, con respecto a las paredes de madera
-           un trabajador especializado en carpintería; ambos con sus respectivos ayudantes
-           y con al menos 2 años de experiencia efectiva.</p>
+          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+        </div>
       </div>
-      <div>  
-        <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>       
-      </div> 
-   </div>
-     <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
-      <div class="card-body">
-        <h4>CIELOS RASO</h4>
-        <h6 class="card-subtitle text-muted">GYPSUM</h6>
-        <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
-        <p>Trabajador especializado en gypsum y en el caso de pintura un trabajador 
-           especializado en pintura; todos con sus respectivos ayudantes y con al 
-           menos 2 años de experiencia efectiva.</p>
+      <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
+        <div class="card-body">
+          <h4>PAREDES</h4>
+          <h6 class="card-subtitle text-muted">PREFABRICADAS</h6>
+          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <p>Trabajador calificado en albañilería, con respecto a las paredes de madera
+            un trabajador especializado en carpintería; ambos con sus respectivos ayudantes
+            y con al menos 2 años de experiencia efectiva.</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+        </div>
       </div>
-      <div>
-        <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
-      </div>         
-     </div>
-     <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
-       <div class="card-body">
-         <h4>TECHO</h4>
-         <h6 class="card-subtitle text-muted">AECERO Y MADERA</h6>
-         <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
-         <p>Trabajador especializado en cada caso, un operario especializado en soldadura
-            para el caso de las cerchas de perfiles de acero, en el caso de las cerchas 
-            de madera un trabajador especializado en carpintería y para cubiertas, 
+      <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
+        <div class="card-body">
+          <h4>CIELOS RASO</h4>
+          <h6 class="card-subtitle text-muted">GYPSUM</h6>
+          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <p>Trabajador especializado en gypsum y en el caso de pintura un trabajador
+            especializado en pintura; todos con sus respectivos ayudantes y con al
+            menos 2 años de experiencia efectiva.</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+        </div>
+      </div>
+      <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
+        <div class="card-body">
+          <h4>TECHO</h4>
+          <h6 class="card-subtitle text-muted">AECERO Y MADERA</h6>
+          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <p>Trabajador especializado en cada caso, un operario especializado en soldadura
+            para el caso de las cerchas de perfiles de acero, en el caso de las cerchas
+            de madera un trabajador especializado en carpintería y para cubiertas,
             canoas y bajantes un trabajador especializado en hojalatería.</p>
-       </div>
-       <div>
-         <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
-       </div>       
-     </div>
-     <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
-       <div class="card-body">
-         <h4>INSTALACIÓN ELÉCTRICA</h4>
-         <h6 class="card-subtitle text-muted">AIRE ACONDICIONADO</h6>
-         <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
-         <p>Trabajador especializado en electricidad con al menos 2 años de experiencia efectiva,
-            con su respectivo ayudante. En el caso del sistema de aire acondicionado se requiere 
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+        </div>
+      </div>
+      <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
+        <div class="card-body">
+          <h4>INSTALACIÓN ELÉCTRICA</h4>
+          <h6 class="card-subtitle text-muted">AIRE ACONDICIONADO</h6>
+          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <p>Trabajador especializado en electricidad con al menos 2 años de experiencia efectiva,
+            con su respectivo ayudante. En el caso del sistema de aire acondicionado se requiere
             un trabajador especializado en refrigeración con su respectivo ayudante o se contratará
             los servicios de una empresa especializada en el mantenimiento.</p>
-       </div>
-       <div>
-         <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>         
-       </div>       
-     </div>     
-    
-   </div>
-   
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 
   <footer class="footer">
     <div class="row">
       <div class="col-sm-4 d-flex flex-column social">
-        <a href="http://www.facebook.com"><img class="face__img" src="./assets/Facebook.png" alt=""/> Facebook</a>      
-        <a href="http://www.twitter.com"><img class="twi__img" src="./assets/twitter.png" alt=""/> Twitter</a>
-        <a href="http://www.instagram.com"><img class="inst__img" src="./assets/instagram.png" alt=""/> Instagram</a>
-        <a href="http://www.google.com"><img class="goo__img" src="./assets/google.png" alt=""/> Google+</a>
+        <a href="http://www.facebook.com"><img class="face__img" src="./assets/Facebook.png" alt="" /> Facebook</a>
+        <a href="http://www.twitter.com"><img class="twi__img" src="./assets/twitter.png" alt="" /> Twitter</a>
+        <a href="http://www.instagram.com"><img class="inst__img" src="./assets/instagram.png" alt="" /> Instagram</a>
+        <a href="http://www.google.com"><img class="goo__img" src="./assets/google.png" alt="" /> Google+</a>
       </div>
       <div class="col-sm-4">
-          <address>
-              <h3>Oficina Central</h3>
-                <p><span class="oi oi-home footer-address-icon"></span>Urbanizacion Fuentes, San Jose, Costa Rica</p>
-                <p><span class="oi oi-phone footer-address-icon"></span>+50688603191</p>
-                <p><span class="oi oi-inbox footer-address-icon"></span>contacto@mantenimiento.com</p>
-          </address>
+        <address>
+          <h3>Oficina Central</h3>
+          <p><span class="oi oi-home footer-address-icon"></span>Urbanizacion Fuentes, San Jose, Costa Rica</p>
+          <p><span class="oi oi-phone footer-address-icon"></span>+50688603191</p>
+          <p><span class="oi oi-inbox footer-address-icon"></span>contacto@mantenimiento.com</p>
+        </address>
       </div>
       <div class="col-sm-4 d-flex flex-column align-items-end contacto">
-        <a href="http://www.facebook.com">Nosotros</a>      
+        <a href="http://www.facebook.com">Nosotros</a>
         <a href="http://www.twitter.com">Precios</a>
         <a href="http://www.instagram.com">Términos y condiciones</a>
         <a href="http://www.google.com">Contacto</a>
       </div>
-  </div>
+    </div>
 
   </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>
