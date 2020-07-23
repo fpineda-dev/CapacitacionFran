@@ -80,78 +80,199 @@
     </div>
     <hr>
 
-    <img src="./assets/img-enmedio.jpg" class="imageC img-fluid" alt="Responsive imagen">
+    <div id="carrouselControl" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img-enmedio.jpg" alt="Primer slide" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img-enmedio5.jpg" alt="Primer slide" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/Celosias-laser-interior-habitacion.jpg" alt="Primer slide" class="d-block w-100">
+        </div>
+      </div>
+      <a href="#carrouselControl" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a href="#carrouselControl" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+
+    <!-- <img src="./assets/img-enmedio.jpg" class="imageC img-fluid" alt="Responsive imagen"> -->
 
     <div class="d-flex flex-wrap flex-row-reverse">
       <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
         <div class="card-body">
-          <h5 class="card-title">CERÁMICA</h5>
+          <h5 class="card-title" data-toggle="tootip" data-placement="top"
+            title="Al contratar por primera vez su presupuesto es gratis!">CERÁMICA</h5>
           <h6 class="card-subtitle text-muted">MOSAICO Y TERRAZO</h6>
           <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p class="card-text">Trabajador calificado en la rama de la albañilería con su ayudante,
             con al menos 2 años de experiencia efectiva,
             Los acabados de pisos deberán ser realizados acorde con lo indicado.</p>
+          <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">
+            Contacto</button>
         </div>
         <div>
-          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+          <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#contratar"><span
+              class="oi oi-plus" data-toggle="popover" title="Promociones"
+              data-content="Consultá las promociones vigentes"></span> Contratar</button>
         </div>
       </div>
       <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
         <div class="card-body">
-          <h4>PAREDES</h4>
+          <h5 class="card-title" data-toggle="tootip" data-placement="top"
+            title="Al contratar por primera vez su presupuesto es gratis!">PAREDES</h5>
           <h6 class="card-subtitle text-muted">PREFABRICADAS</h6>
           <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p>Trabajador calificado en albañilería, con respecto a las paredes de madera
             un trabajador especializado en carpintería; ambos con sus respectivos ayudantes
             y con al menos 2 años de experiencia efectiva.</p>
+          <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">
+            Contacto</button>
         </div>
         <div>
-          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+          <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#contratar"><span
+              class="oi oi-plus" data-toggle="popover" title="Promociones"
+              data-content="Consultá las promociones vigentes"></span> Contratar</button>
         </div>
       </div>
       <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
         <div class="card-body">
-          <h4>CIELOS RASO</h4>
+          <h5 class="card-title" data-toggle="tootip" data-placement="top"
+            title="Al contratar por primera vez su presupuesto es gratis!">CIELOS RASO</h5>
           <h6 class="card-subtitle text-muted">GYPSUM</h6>
           <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p>Trabajador especializado en gypsum y en el caso de pintura un trabajador
             especializado en pintura; todos con sus respectivos ayudantes y con al
             menos 2 años de experiencia efectiva.</p>
+          <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">
+            Contacto</button>
         </div>
         <div>
-          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+          <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#contratar"><span
+              class="oi oi-plus" data-toggle="popover" title="Promociones"
+              data-content="Consultá las promociones vigentes"></span> Contratar</button>
         </div>
       </div>
       <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
         <div class="card-body">
-          <h4>TECHO</h4>
+          <h5 class="card-title" data-toggle="tootip" data-placement="top"
+            title="Al contratar por primera vez su presupuesto es gratis!">TECHO</h5>
           <h6 class="card-subtitle text-muted">AECERO Y MADERA</h6>
           <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p>Trabajador especializado en cada caso, un operario especializado en soldadura
             para el caso de las cerchas de perfiles de acero, en el caso de las cerchas
             de madera un trabajador especializado en carpintería y para cubiertas,
             canoas y bajantes un trabajador especializado en hojalatería.</p>
+          <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">
+            Contacto</button>
         </div>
         <div>
-          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+          <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#contratar"><span
+              class="oi oi-plus" data-toggle="popover" title="Promociones"
+              data-content="Consultá las promociones vigentes"></span> Contratar</button>
         </div>
       </div>
       <div class="card-hotel card d-flex flex-column justify-content-between ml-2">
         <div class="card-body">
-          <h4>INSTALACIÓN ELÉCTRICA</h4>
+          <h5 class="card-title" data-toggle="tootip" data-placement="top"
+            title="Al contratar por primera vez su presupuesto es gratis!">INSTALACIÓN ELÉCTRICA</h5>
           <h6 class="card-subtitle text-muted">AIRE ACONDICIONADO</h6>
           <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p>Trabajador especializado en electricidad con al menos 2 años de experiencia efectiva,
             con su respectivo ayudante. En el caso del sistema de aire acondicionado se requiere
             un trabajador especializado en refrigeración con su respectivo ayudante o se contratará
             los servicios de una empresa especializada en el mantenimiento.</p>
+          <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">
+            Contacto</button>
         </div>
         <div>
-          <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Contratar</button>
+          <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#contratar"><span
+              class="oi oi-plus" data-toggle="popover" title="Promociones"
+              data-content="Consultá las promociones vigentes"></span> Contratar</button>
         </div>
       </div>
 
     </div>
+    <!--MODAL-->
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModallabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModallabel">Contacto con el Administrador</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Tu email:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Mensaje:</label>
+                <textarea id="message-text" class="form-control"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Enviar</button>
+          </div>
+
+        </div><!--Fin modal-content -->        
+
+      </div><!--Fin modal dialog-->      
+
+    </div><!--Fin modal fade-->
+    
+
+
+    <!--MODAL CONTRATAR-->
+    <div class="modal fade" id="contratar" tabindex="-1" role="dialog" aria-labelledby="exampleModallabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModallabel">Formulario de Visita Tecnica</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-date" class="col-form-label">Fecha:</label>
+                <input type="datetime-local" class="form-control" id="recipient-date">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Detalle Obra:</label>
+                <textarea id="message-text" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="direccion" class="col-form-label">Direccion:</label>
+                <textarea id="direccion" class="form-control"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Agendar</button>
+          </div>
+
+        </div><!--Fin modal-content -->        
+
+      </div><!--Fin modal dialog-->      
+
+    </div><!--Fin modal fade-->
+    
+
+
 
   </div>
 
@@ -184,8 +305,18 @@
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+    $(function () {
+      $("[data-toggle='tooltip']").tooltip();
+      $("[data-toggle='popover']").popover();
+      //Para manejar los tiempos del carousel
+      $('.carousel').carousel({
+          interval: 2000
+      });
+    })   
+  </script>
 </body>
 
 </html>
