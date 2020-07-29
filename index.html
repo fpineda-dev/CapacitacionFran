@@ -6,10 +6,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+  <!-- build:css dist/index.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+  <!-- endbuild -->
+
   <title>Oficios y Habilidades</title>
 </head>
 
@@ -83,13 +85,13 @@
     <div id="carrouselControl" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./assets/img-enmedio.jpg" alt="Primer slide" class="d-block w-100">
+          <img src="./images/img-enmedio.jpg" alt="Primer slide" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="./assets/img-enmedio5.jpg" alt="Primer slide" class="d-block w-100">
+          <img src="./images/img-enmedio5.jpg" alt="Primer slide" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="./assets/Celosias-laser-interior-habitacion.jpg" alt="Primer slide" class="d-block w-100">
+          <img src="./images/Celosias-laser-interior-habitacion.jpg" alt="Primer slide" class="d-block w-100">
         </div>
       </div>
       <a href="#carrouselControl" class="carousel-control-prev" role="button" data-slide="prev">
@@ -108,11 +110,11 @@
           <h5 class="card-title" data-toggle="tootip" data-placement="top"
             title="Al contratar por primera vez su presupuesto es gratis!">CERÁMICA</h5>
           <h6 class="card-subtitle text-muted">MOSAICO Y TERRAZO</h6>
-          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <img src="./images/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p class="card-text">Trabajador calificado en la rama de la albañilería con su ayudante,
             con al menos 2 años de experiencia efectiva,
             Los acabados de pisos deberán ser realizados acorde con lo indicado.</p>
-          <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">
+          <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactobtn">
             Contacto</button>
         </div>
         <div>
@@ -126,7 +128,7 @@
           <h5 class="card-title" data-toggle="tootip" data-placement="top"
             title="Al contratar por primera vez su presupuesto es gratis!">PAREDES</h5>
           <h6 class="card-subtitle text-muted">PREFABRICADAS</h6>
-          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <img src="./images/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p>Trabajador calificado en albañilería, con respecto a las paredes de madera
             un trabajador especializado en carpintería; ambos con sus respectivos ayudantes
             y con al menos 2 años de experiencia efectiva.</p>
@@ -144,7 +146,7 @@
           <h5 class="card-title" data-toggle="tootip" data-placement="top"
             title="Al contratar por primera vez su presupuesto es gratis!">CIELOS RASO</h5>
           <h6 class="card-subtitle text-muted">GYPSUM</h6>
-          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <img src="./images/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p>Trabajador especializado en gypsum y en el caso de pintura un trabajador
             especializado en pintura; todos con sus respectivos ayudantes y con al
             menos 2 años de experiencia efectiva.</p>
@@ -162,7 +164,7 @@
           <h5 class="card-title" data-toggle="tootip" data-placement="top"
             title="Al contratar por primera vez su presupuesto es gratis!">TECHO</h5>
           <h6 class="card-subtitle text-muted">AECERO Y MADERA</h6>
-          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <img src="./images/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p>Trabajador especializado en cada caso, un operario especializado en soldadura
             para el caso de las cerchas de perfiles de acero, en el caso de las cerchas
             de madera un trabajador especializado en carpintería y para cubiertas,
@@ -181,7 +183,7 @@
           <h5 class="card-title" data-toggle="tootip" data-placement="top"
             title="Al contratar por primera vez su presupuesto es gratis!">INSTALACIÓN ELÉCTRICA</h5>
           <h6 class="card-subtitle text-muted">AIRE ACONDICIONADO</h6>
-          <img src="./assets/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
+          <img src="./images/reforma-de-vivienda.jpg" alt="casa img" class="img-card-top">
           <p>Trabajador especializado en electricidad con al menos 2 años de experiencia efectiva,
             con su respectivo ayudante. En el caso del sistema de aire acondicionado se requiere
             un trabajador especializado en refrigeración con su respectivo ayudante o se contratará
@@ -277,10 +279,10 @@
   <footer class="footer">
     <div class="row">
       <div class="col-sm-4 d-flex flex-column social">
-        <a href="http://www.facebook.com"><img class="face__img" src="./assets/Facebook.png" alt="" /> Facebook</a>
-        <a href="http://www.twitter.com"><img class="twi__img" src="./assets/twitter.png" alt="" /> Twitter</a>
-        <a href="http://www.instagram.com"><img class="inst__img" src="./assets/instagram.png" alt="" /> Instagram</a>
-        <a href="http://www.google.com"><img class="goo__img" src="./assets/google.png" alt="" /> Google+</a>
+        <a href="http://www.facebook.com"><img class="face__img" src="./images/Facebook.png" alt="" /> Facebook</a>
+        <a href="http://www.twitter.com"><img class="twi__img" src="./images/twitter.png" alt="" /> Twitter</a>
+        <a href="http://www.instagram.com"><img class="inst__img" src="./images/instagram.png" alt="" /> Instagram</a>
+        <a href="http://www.google.com"><img class="goo__img" src="./images/google.png" alt="" /> Google+</a>
       </div>
       <div class="col-sm-4">
         <address>
@@ -302,6 +304,8 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <!-- build:js dist/index.js -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -313,8 +317,36 @@
       $('.carousel').carousel({
           interval: 2000
       });
+    //#region 
+    /*Usamos el Id del Modal
+    $('#contacto').on('show.bs.modal', function(e){
+      console.log('el modal se está mostrando');
+
+      // $('#contactobtn').removeClass('btn-outline-success')
+      // $('#contactobtn').addClass('btn-primary') 
+
+      $('#contactobtn').prop('disabled', true)
+
+    })
+    //Aqui se muestra despues de abrirse
+    $('#contacto').on('shown.bs.modal', function(e){
+      console.log('el modal se mostro');
+    })
+
+    $('#contacto').on('hide.bs.modal', function(e){
+      console.log('el modal se oculta');
+    })
+    //Aqui se muestra despues de ocultarse
+    $('#contacto').on('hidden.bs.modal', function(e){
+      console.log('el modal se ocultó');
+      $('#contactobtn').prop('disabled', false)
+    })*/
+
+    //#endregion
+
     })   
   </script>
+   <!-- endbuild -->
 </body>
 
 </html>
