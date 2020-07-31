@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- build:css dist/index.css -->
+  <!-- build:css css/index.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
@@ -305,47 +305,11 @@
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-  <!-- build:js dist/index.js -->
+  <!-- build:js js/main.js -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script>
-    $(function () {
-      $("[data-toggle='tooltip']").tooltip();
-      $("[data-toggle='popover']").popover();
-      //Para manejar los tiempos del carousel
-      $('.carousel').carousel({
-          interval: 2000
-      });
-    //#region 
-    /*Usamos el Id del Modal
-    $('#contacto').on('show.bs.modal', function(e){
-      console.log('el modal se está mostrando');
-
-      // $('#contactobtn').removeClass('btn-outline-success')
-      // $('#contactobtn').addClass('btn-primary') 
-
-      $('#contactobtn').prop('disabled', true)
-
-    })
-    //Aqui se muestra despues de abrirse
-    $('#contacto').on('shown.bs.modal', function(e){
-      console.log('el modal se mostro');
-    })
-
-    $('#contacto').on('hide.bs.modal', function(e){
-      console.log('el modal se oculta');
-    })
-    //Aqui se muestra despues de ocultarse
-    $('#contacto').on('hidden.bs.modal', function(e){
-      console.log('el modal se ocultó');
-      $('#contactobtn').prop('disabled', false)
-    })*/
-
-    //#endregion
-
-    })   
-  </script>
+  <script src="./js/index.js"></script>
    <!-- endbuild -->
 </body>
 
